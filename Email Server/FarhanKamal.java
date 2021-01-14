@@ -1,4 +1,4 @@
-public class FayyadReza {
+public class FarhanKamal {
     public static void main(String[] args)  {
 	// 3 records
 	// record 0 is deleted
