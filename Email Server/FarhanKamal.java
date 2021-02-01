@@ -15,7 +15,7 @@ public class FarhanKamal {
 	    message.setText("Second message, will exceed one record (needs two records to be stored in). Here's some extra filler words :)"); 
 	    message.writeToMessagesFile(); //second message added - takes up two records
 	    
-	    message.deleteFromMessagesFile(0); //first record has been added and deleted from file (position 0 is deleted message)
+	    message.deleteFromMessagesFile(0);
 			
 	    message.setText("This record has to be exactly 90 bytes long. So lets type some more to get 90 bytes. Done!");
 	    message.writeToMessagesFile(); //final record added that is 90 bytes long
